@@ -8,17 +8,6 @@ import PriceMarker from "./components/PriceMarker";
 const MAPBOX_TOKEN =
   "pk.eyJ1IjoiY2xhaXJlZnJvZnJvZnJvIiwiYSI6ImNrZTlhZXFhajAxd3IzMW1qdWxmNmJsbXIifQ.lbPzivrmR4KpokhRw3_10A";
 
-const Hello = () => {
-  const [firstname, setFirstname] = useState("my name");
-  const [lastname, setLastname] = useState("my  lastname");
-
-  const handleClick = () => {
-    setFirstname("new name");
-  };
-
-  return <div>Hello {firstname}!</div>;
-};
-
 class App extends React.Component {
   constructor(props) {
     super(props);
